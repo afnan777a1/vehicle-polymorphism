@@ -2,6 +2,9 @@ class Ferrari:
   def car_model(self):
     print("La Ferrari")
     
+  def car_mileage(self):
+    print("Mileage is 16 kmpl")
+
   def fuel_type(self):
     print("Fuel type is Petrol")
     
@@ -13,6 +16,9 @@ class BMW:
   def car_model(self):
     print("BMW m1")
     
+  def car_mileage(self):
+    print("Mileage is 16.29 kmpl")
+
   def fuel_type(self):
     print("Fuel type is Gasoline")
     
@@ -24,6 +30,9 @@ class MercedesBenz:
   def car_model(self):
     print("Mercedes T80")
     
+  def car_mileage(self):
+    print("Mileage is 2 kmpl")
+
   def fuel_type(self):
     print("Fuel type is Petrol")
     
@@ -35,6 +44,9 @@ class TATA:
   def car_model(self):
     print("Altroz Racer")
     
+  def car_mileage(self):
+    print("Mileage is 19.33 kmpl")
+
   def fuel_type(self):
     print("Fuel type is Petrol")
     
@@ -46,6 +58,9 @@ class McLaren:
   def car_model(self):
     print("McLaren P1 GTR")
     
+  def car_mileage(self):
+    print("Mileage is 7 kmpl")
+
   def fuel_type(self):
     print("Fuel type is Petrol")
     
@@ -56,7 +71,10 @@ class McLaren:
 class RollsRoyce:
   def car_model(self):
     print("Rolls-Royce Ghost")  
-    
+
+  def car_mileage(self):
+    print("Mileage is 16 kmpl")
+
   def fuel_type(self):
     print("Fuel type is Petrol")
     
@@ -73,5 +91,6 @@ rollsroyce = RollsRoyce()
 for car in (ferrari, bmw, mercedesbenz, tata, mclaren, rollsroyce):
 
     car.car_model()
+    car.car_mileage()
     car.max_speed()
     car.fuel_type()
